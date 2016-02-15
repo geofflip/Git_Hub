@@ -42,20 +42,29 @@ div {
 }
 
 section.portfolio {
-  color: white;
-  padding: 5rem 0 0 0;
-  background: url(Images/Projects-Background.jpg);
-  background-image: ("Images/Projects-Background.jpg")
-  background-position-x: 50%;
-  background-position-y: 50%;
-  background-size: cover;
-  background-attachment: initial, initial;
-  background-clip: initial, initial;
-  background-repeat: no-repeat;
-  background-position: center;
-  content: "";
-  display: table;
-  clear: both;
+    color: white;
+    padding: 5rem 0 0 0;
+    padding-top: 5rem;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Projects-Background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.701961), rgba(0, 0, 0, 0.701961)), url("images/Projects-Background.jpg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .portfolio {
@@ -108,9 +117,23 @@ h2 {
 }
 
 .btn {
-  background: white;
-  font-size: 0.6rem;
-  padding: 1rem 0;
+  background: #ffffff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(153, 0, 0);
+    font-size: 0.6rem;
+    padding: 1rem 0;
+    padding-top: 1rem;
+    padding-right: 0px;
+    padding-bottom: 1rem;
+    padding-left: 0px;
 }
 
 .project img {
@@ -118,6 +141,12 @@ h2 {
   overflow: hidden;
   margin: 0 auto;
   width: 90%;
+}
+
+.hover {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 h3 {
