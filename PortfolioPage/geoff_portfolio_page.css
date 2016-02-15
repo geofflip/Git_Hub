@@ -1,0 +1,214 @@
+html {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  color: black
+  vertical-align:baseline;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background: url(Images/New American Gothic.jpg);
+  background-image: url("Images/New American Gothic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  padding: 12em 0;
+}
+div {
+  display: block;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.lead {
+  padding-top: 2rem;
+  display: inline-block;
+}
+
+.wrapper {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.skills {
+  margin: 1.5rem 0.75rem 0 o.75rem;
+}
+
+section.portfolio {
+  color: white;
+  padding: 5rem 0 0 0;
+  background: url(Images/Projects-Background.jpg);
+  background-image: ("Images/Projects-Background.jpg")
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-attachment: initial, initial;
+  background-clip: initial, initial;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.portfolio {
+  position: relative;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.3rem;
+  padding: 85px 0 35px 0;
+  text-transform: uppercase;
+}
+
+.grid {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.col-1-2 {
+  width: 50%;
+  padding: 0 5%;
+}
+
+[class*='col-'] {
+  float: left;
+}
+
+.grid::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project {
+  position: relative;
+}
+
+.project a {
+  background-color: white;
+  display: block;
+  color: black;
+  border: none;
+  position: absolute;
+  bottom: 50%;
+  left: 30%;
+  width: 40%;
+  margin: 0 auto;
+  opacity: 0;
+  text-decoration: none;
+}
+
+.btn {
+  background: white;
+  font-size: 0.6rem;
+  padding: 1rem 0;
+}
+
+.project img {
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  display: block;
+}
+
+.about {
+  color: white;
+  background: url(Images/Stop-Wars.jpg);
+  background-image: url("Images/Stop-Wars.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 3%;
+}
+
+.about>div {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.about h2 {
+  padding: 10px 0 15px 0;
+}
+h2 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  display: block;
+}
+
+.about p {
+    font-size: 16px;
+    color: #EAEAEA;
+}
+
+p {
+  line-height: 1.5;
+}
+
+footer {
+  margin: 0 auto;
+  padding-bottom: 75px;
+  background: url(Images/Projects-Background.jpg);
+  color: white;
+}
+
+h2 {
+  font-size: 1.3rem;
+  padding: 85px 0 35px 0;
+  text-transform: uppercase;
+}
+
+footer a {
+  text-decoration: none;
+}
+footer div {
+    background-repeat: no-repeat;
+    margin: 15px auto;
+    width: 300px;
+    padding-top: 20px;
+    height: 75px;
+    padding-left: 100px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.email {
+  background-image: url(Images/Email-Icon.jpg);
+}
+
+.twitter {
+    background-image: url(Images/Twitter-Logo.jpg);
+}
